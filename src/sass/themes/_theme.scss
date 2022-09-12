@@ -1,0 +1,39 @@
+
+.container{
+    align-items: center;
+    align-content: center;
+  }
+  
+
+.cima{
+  @include align;
+     position: relative;
+     margin-bottom: 4em;
+  }
+
+.mag{
+  @include align;
+     position: relative;
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
+.baixo{
+    @include align;
+    
+  }
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent,#bfa87c , transparent);  
+  }
+
+.card1{
+    @include align;
+  }
+  
+.hr1{
+    color: #fff;
+    margin: 0 auto;
+  }

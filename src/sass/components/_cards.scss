@@ -1,0 +1,25 @@
+  .card {
+    border: 0px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 3px 3px 9px #bfa87c;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: 30px;
+    transition: 0.5s ease;
+    color: #000;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.15);
+        box-shadow: 5px 5px 5px #bfa87c;
+        font-family: 'Quicksand', sans-serif;
+    }
+    &-img-top{
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;  
+    }
+    &-text{
+        margin-top: 18px;
+        text-align:center;
+    }
+  }
